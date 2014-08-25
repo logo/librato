@@ -1,18 +1,2 @@
-
-/**
- * Librato
- */
-
-.logo[data-logo="Librato"] {
-  width: 3.853888572em;
-  /* (297.05/52.59) * (1-.05-.25) - .1 */
-}
-
-.logo[data-logo="Librato"] > * {
-  background-image: url(images/logo.svg);
-  margin: .05em -.1em .25em 0;
-}
-
-.logo[data-logo="Librato"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
+@import 'logo/logo';
+@import './style';
